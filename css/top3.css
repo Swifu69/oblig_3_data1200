@@ -1,13 +1,4 @@
-.top3kiwi{
-    text-align: center;
-    list-style-position: inside;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-li {
+.cardElement {
     display: flex;
     padding: 50px;
     margin: 5%;
@@ -41,7 +32,7 @@ li {
     color: darkslategray;
 }
 
-li > img{
+.cardElement > img{
     border-radius: 10%;
     height: 100%;
     display: block;
