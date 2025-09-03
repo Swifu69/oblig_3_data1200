@@ -11,12 +11,18 @@ section { /* alle sections skal ha generell padding */
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
 h1 {
     font-size: 5rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
+p {
+    font-size: 2rem;
+}
 
 header{
     display: flex;
