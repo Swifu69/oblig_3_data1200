@@ -4,12 +4,30 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 }
-.top3kiwi {
+
+h1 {
+    font-size: 3rem;
+}
+
+.top3kiwi{
     text-align: center;
     list-style-position: inside;
 }
 
 li {
+    display: flex;
     padding: 50px;
-    font-size: 2rem;
+    margin: 5%;
+    /* font-size: 2rem; */
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border border-radius: 10%;
+    height: 250px;
 }
+
+li > img{
+    border-radius: 10%;
+    height: 100%;
+}
+
