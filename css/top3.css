@@ -1,0 +1,48 @@
+.top3kiwi{
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+li {
+    display: flex;
+    padding: 50px;
+    margin: 5%;
+    /* justify-content: center;
+    align-items:center; */
+    background-color: whitesmoke;
+    border-radius: 1%;
+    height: 250px;
+}
+
+.cardContents{
+    justify-content: center;
+    align-self:center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cardHeader {
+    font-size: 7rem;
+    justify-content: center;
+    align-self:center;
+    margin: 2%;
+}
+
+.cardText {
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    color: darkslategray;
+}
+
+li > img{
+    border-radius: 10%;
+    height: 100%;
+    display: block;
+}
