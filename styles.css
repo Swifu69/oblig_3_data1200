@@ -32,3 +32,25 @@ li > img{
     
 }
 
+.navbar{
+    background-color: aqua;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar ul{
+    width: 100%;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: larger;
+}
+
+.navbar a{
+    display: block;
+    padding: 1rem;
+    color: green;
+    text-decoration: none;
+}
