@@ -15,25 +15,15 @@ h1 {
 }
 
 
-.navbar{
-    background-color: aqua;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+
+header li{
+    display: inline-block;
     list-style: none;
-    justify-content: center;
+    padding: 0 1rem;
 }
 
-.navbar ul{
-    width: 100%;
-    flex: 1 1 auto;
-    text-align: center;
-    font-size: larger;
+header{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.navbar a{
-    display: block;
-    padding: 1rem;
-    color: green;
-    text-decoration: none;
-}
