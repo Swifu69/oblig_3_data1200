@@ -4,11 +4,16 @@
     text-align: center;
 }
 
+
 section { /* alle sections skal ha generell padding */
     text-align: center;
     list-style-position: inside;
     margin: 2.5% 10%;
 
+}
+
+main {
+    flex: 1; /* Tar opp all plass mellom header og footer */
 }
 
 h1 {
@@ -30,6 +35,7 @@ header ul{
 
 }
 
+
 header li{
     list-style: none;
     display: inline-flex;
@@ -47,6 +53,9 @@ header li a {
     text-decoration: none;
     color: white;
 }
+footer p {
+    color: whitesmoke;
+}
 
 svg {
     fill:white;
@@ -60,4 +69,9 @@ svg {
 
 .pages {
     width: 90%;
+}
+footer {
+    background-color:rgb(56, 56, 56);
+    padding: 2.5% 1%;
+    text-align: center;
 }
