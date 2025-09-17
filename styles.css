@@ -23,7 +23,7 @@ p {
 
 header ul{
     display: flex;
-    justify-content: center; 
+    justify-content: space-evenly; 
     background-color:rgb(56, 56, 56);
     padding: 2.5% 1%;
     text-align: center;
@@ -46,4 +46,18 @@ header li{
 header li a {
     text-decoration: none;
     color: white;
+}
+
+svg {
+    fill:white;
+    height: 100%;
+    width: auto;
+}
+
+.homeicon {
+    width: 10%;
+}
+
+.pages {
+    width: 90%;
 }
